@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.petlove.com.br/dicas/wp-content/uploads/2021/08/Gato-filhote-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+button{
+    border: 2px solid rgb(100, 98, 98);  
+    border-radius: 7px;   
+    font-size: 90%;
+    width: 8vw;    
+    height: 8vh;    
+
+}
+    
