@@ -7,24 +7,69 @@
 
 
 
+
 body{
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://www.petlove.com.br/dicas/wp-content/uploads/2021/08/Gato-filhote-2.jpg);
     background-repeat: no-repeat;
+    background-image: url(por-do-sol-no-mar_69709-957.webp);
     background-size: cover;
     background-position: center;
+    
+    
 }
 
 button{
-    border: 2px solid rgb(100, 98, 98);  
-    border-radius: 7px;   
-    font-size: 90%;
-    width: 8vw;    
-    height: 8vh;    
+
+    border-radius: 12px;   
+    font-size: 20px;
+    width: 200px;        
+    padding: 20px 40px;
+    border: none;
+    background-color:  #6b0d74;
+    color: #dbc2c2; 
+    transition: 0.5s;
 
 }
-    
+button:hover{
+    cursor: pointer;
+
+  background-color: #6b0d74;
+  border: none;
+  color: #dbc2c2;
+  
+  padding-left: 25PX;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 12px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
