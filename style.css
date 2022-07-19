@@ -27,21 +27,22 @@ button{
     border-radius: 12px;   
     font-size: 20px;
     width: 200px;        
-    padding: 20px 40px;
+    height: 50px;   
     border: none;
-    background-color:  #6b0d74;
+    background-color:  #1358d8;
     color: #dbc2c2; 
     transition: 0.5s;
+    
 
 }
 button:hover{
     cursor: pointer;
 
-  background-color: #6b0d74;
+  background-color: #123b86;
   border: none;
   color: #dbc2c2;
   
-  padding-left: 25PX;
+  padding-right: 25px;
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
@@ -49,27 +50,10 @@ button:hover{
   border-radius: 12px;
 }
 
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-}
+
+
+
+
+
+
+    
