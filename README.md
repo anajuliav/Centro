@@ -1,2 +1,2 @@
 # Botão Responsivo
-Clique Aqui para ver o meu Site --> https://botao-responsivo.netlify.app
+Clique aqui para ver --> https://botao-responsivo.netlify.app
